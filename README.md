@@ -3,6 +3,7 @@
 Ce projet est une implémentation Python d’un système de recommandation de critiques pour la plateforme **SensCritique**.  
 L’objectif est de proposer à l’utilisateur des critiques **similaires à celle qu’il est en train de lire**.
 
+(voir aussi le fichier explication du projet)
 ---
 
 ## Fonctionnalités
