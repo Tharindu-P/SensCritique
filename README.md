@@ -40,7 +40,7 @@ Chaque CSV doit contenir au minimum les colonnes suivantes :
 
 ---
 
-## ▶️ Utilisation
+## Utilisation
 
 ### 1. Installation
 Clonez ce dépôt et installez les dépendances :
