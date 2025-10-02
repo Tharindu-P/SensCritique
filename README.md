@@ -1,3 +1,16 @@
+
+flowchart TD
+    A[Utilisateur<br/>(navigateur / CLI)] -->|Demande critique similaire<br/>(review_id)| B[Application Python<br/>ReviewRecommender]
+
+    B --> C[Filtrage des critiques<br/>du même film<br/>(pandas DataFrame)]
+    C --> D[Nettoyage texte<br/>- HTML, espaces<br/>- stopwords français<br/>BeautifulSoup + regex]
+    D --> E[TF-IDF Vectorization<br/>- sklearn TfidfVectorizer]
+    E --> F[Calcul similarité<br/>- Cosine similarity<br/>- Top N résultats]
+    F --> G[Résultat<br/>- Liste critiques similaires<br/>- Score de similarité]
+
+    G --> A
+
+
 # Recommandation de critiques SensCritique
 
 Ce projet est une implémentation Python d’un système de recommandation de critiques pour la plateforme **SensCritique**.  
