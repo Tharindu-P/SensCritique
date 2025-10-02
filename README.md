@@ -45,10 +45,11 @@ Chaque CSV doit contenir au minimum les colonnes suivantes :
 ### 1. Installation
 Clonez ce dépôt et installez les dépendances :
 ```bash
-git clone https://github.com/<ton-pseudo>/senscritique-reco.git
-cd senscritique-reco
+git clone https://github.com/Tharindu-P/SensCritique.git
+cd SensCritique
 python -m venv venv
 source venv/bin/activate  # (Linux/Mac)
 venv\Scripts\activate     # (Windows)
 
 pip install -r requirements.txt
+
